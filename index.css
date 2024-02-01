@@ -3,12 +3,14 @@ body {
     margin: 0;
     padding: 0;
 }
-img{
+.profile-picture {
     position: relative;
     width: 100px;
-    height: 60px;
-    border-radius: 9px;
+    height: 100px; /* Set height to match width for a perfect circle */
+    border-radius: 50%; /* Use 50% to create a circular shape */
+    overflow: hidden; /* Ensure content within the circle doesn't overflow */
 }
+
 header {
     text-align: center;
     padding: 20px;
