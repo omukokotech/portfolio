@@ -5,9 +5,9 @@ body {
 }
 .profile-picture {
     position: relative;
-    width: 200px;
-    height: 200px; /* Set height to match width for a perfect circle */
-    border-radius: 25%; /* Use 50% to create a circular shape */
+    width: 100px;
+    height: 100px; /* Set height to match width for a perfect circle */
+    border-radius: 50%; /* Use 50% to create a circular shape */
     overflow: hidden; /* Ensure content within the circle doesn't overflow */
 }
 
