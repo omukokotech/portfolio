@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.profile-picture {
+img{
     position: relative;
     width: 200px;
     height: 200px; /* Set height to match width for a perfect circle */
